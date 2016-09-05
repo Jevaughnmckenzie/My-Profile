@@ -70,11 +70,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: darkgrey;
@@ -181,7 +181,7 @@ a.social:hover {
   width: 45%;
   margin: 2.5%;
 
-  
+
 }
 
 #gallery img {
@@ -193,7 +193,7 @@ a.social:hover {
 
 #gallery img:hover {
  transform: scale(1.05);
-    
+
 }
 
 /* Styles for larger screens */
@@ -231,7 +231,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-  
+
   #gallery li {
     width: 28.3333%;
   }
